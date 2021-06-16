@@ -14,6 +14,7 @@ h2{
 h3{
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 900;
+    font-size: 1.5rem;
 }
 .navbar{
     display: flex;
@@ -149,7 +150,8 @@ h3{
     padding: 0.5rem;
     background-color: #fff;
     color: black;
-    box-shadow: 10px 10px 5px rgb(145, 142, 142);
+    box-shadow: 10px 10px 5px rgb(0 0 0 / 10%);
+    transition: border-bottom 1s;
 }
 .web-design i{
     font-weight: 2rem;
@@ -160,4 +162,7 @@ h3{
     justify-content: space-around;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
+}
+.web-design:hover{
+    border-bottom: 5px solid #bc6ff1;
 }
