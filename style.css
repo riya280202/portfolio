@@ -145,19 +145,19 @@ h3{
 }
 .web-design{
     border: 1px solid black;
-    height: 80vh;
+    /* height: 80vh; */
     width: 27vw;
-    margin: 1.5rem 2rem;
+    margin: 2rem 2rem;
     padding: 1rem;
     background-color: rgba(219, 215, 215, 0.493);
     color: black;
     box-shadow: 10px 10px 5px rgb(0 0 0 / 10%);
     transition: all 300ms;
 }
-.web-design i{
+/* .web-design i{
     font-weight: 2rem;
     font-size: 1.5rem;
-}
+} */
 .web-design img{
     height: 30vh;
     width: 20vw;
@@ -171,11 +171,21 @@ h3{
 .web-design:hover{
     /* border-bottom: 5px solid #bc6ff1; */
     cursor: pointer;
-    height: 83vh;
+    /* height: 83vh; */
     width: 29vw;
-    margin: 1rem 1rem;
-    padding: 0rem 1.8rem;
+    margin: 1rem 1rem 0rem;
+    padding: 1rem 1.8rem;
 }
 /* .web-design h3:hover{
     color: #4e0380d8;
 } */
+
+.project{
+    width: 20vw;
+    border: 1px solid #000000;
+    /* margin: 2rem 2rem; */
+}
+.projects-card{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
