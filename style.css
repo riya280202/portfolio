@@ -254,6 +254,7 @@ h3{
     color: #000000;
     margin: 0rem 1rem;
     font-size: 3rem;
+    transition: transform 0.05s;
 }
 .contact-icons li img{
     height: 20px;
@@ -276,4 +277,31 @@ h3{
     /* background-color: #e8d1c5;
     padding: 0rem 0.6rem;
     margin: 0rem 0.4rem */
+}
+#contact h4{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-bottom: 0rem;
+}
+.contactme-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactme-icons li{
+    list-style: none;
+    padding: 0.5rem;
+    font-size: 1.5rem;   
+}
+.contactme-icons li a{
+    color: #000000;
+    text-decoration: none;
+}
+.contactme-icons li i{
+    /* margin: 0.4rem; */
+}
+.contactme-icons li a:hover{
+    color: #5a189a;
 }
