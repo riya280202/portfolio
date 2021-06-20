@@ -305,3 +305,32 @@ h3{
 .contactme-icons li a:hover{
     color: #5a189a;
 }
+.about-card{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7rem;
+}
+.about-card img{
+    /* border: 1px solid #000000; */
+    /* padding: 0.8rem; */
+    /* height: 70vh; */
+    width: 30vw;
+    position: relative;
+    top: 50px;
+    left: 15px;
+    z-index: 5;
+}
+.about-card p{
+    background-color: #fff;
+    border: 4px solid #000000;
+    padding: 2rem 0rem 2rem 3rem;
+    /* height: 80vh; */
+    width: 30vw;
+    margin: 0rem;
+    position: relative;
+    top: -50px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 1.5em;
+    left: -15px;
+}
